@@ -1,2 +1,2 @@
-# trybe
+# Trybe
 Repositório de aulas da Trybe
