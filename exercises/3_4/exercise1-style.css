@@ -6,14 +6,14 @@
 body {
   background-color: #82816D;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #1B2D2A;
 }
 
 a,
 a:visited,
 a:active {
-  color: #414066;
+  color: white;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -21,4 +21,93 @@ a:active {
 
 a:hover {
   color: #aaa95a;
+}
+
+img {
+  width: 600px;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+table {
+  background-color: #1B2D2A;
+  color: #82816D;
+  margin: auto;
+}
+
+td,
+th {
+  /* border: 1px solid #82816D; */
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  color: #1B2D2A;
+  background-color: #82816D;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #aaa95a;
+  color: white;
+}
+
+.header {
+  margin: 50px 0;
+}
+
+.title {
+  margin: 50px 0;
+}
+
+.menu {
+  background-color: #AAA95A;
+  padding: 9px 0;
+}
+
+.menu a {
+  padding: 10px 20px;
+}
+
+.menu a:hover {
+  padding: 10px 20px;
+  background-color: #1B2D2A;
+}
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  width: 600px;
+  line-height: 25px;
+  text-align: initial;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  background-color: #1B2D2A;
+  color: #82816D;
+}
+
+.footer p {
+  text-align: center;
 }
