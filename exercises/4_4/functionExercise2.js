@@ -2,7 +2,7 @@
 
 let testArray = [2, 3, 6, 7, 10, 1];
 
-function minorValue(numbers){
+function majorValue(numbers){
   let higherNumber = 0;
   let higherPosition = 0;
 
@@ -16,4 +16,4 @@ function minorValue(numbers){
   return higherPosition;
 }
 
-console.log(minorValue(testArray))
+console.log(majorValue(testArray))

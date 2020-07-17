@@ -2,14 +2,15 @@
 
 function verificaPalindrome(palavra){
   let newWord = '';
+  let palindrome = false;
+
   for (let i in palavra){
     newWord += palavra[palavra.length - 1 - i];
   }
   if (newWord === palavra) {
-    return true;
-  } else {
-    return false;
-  }
+    palindrome = true;
+  } 
+  return palindrome;
 }
 
 console.log(verificaPalindrome("arara"));
