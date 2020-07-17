@@ -21,7 +21,9 @@ function romanos(numbers){
   }
 
   // Verifica um a um dos números ordinários e soma ou subtrai
-  for (let indice = 0; indice < arrayNumbers.length; indice++){
+   for (let indice = 0; indice < arrayNumbers.length; indice++){
+  //  for (let indice in arrayNumbers) {
+
       if (arrayNumbers[indice] < arrayNumbers[indice + 1]){
         sum -= arrayNumbers[indice];
       } else {
@@ -32,4 +34,4 @@ function romanos(numbers){
   return sum;
 }
 
-console.log(romanos('MMXVIII'));
+console.log(romanos('CD'));
