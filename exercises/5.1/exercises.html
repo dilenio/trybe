@@ -78,8 +78,10 @@
         changeH1();
 
         function modifyP() {
-          let changeParagraph = document.getElementsByTagName("p")[0];
-          changeParagraph.style.textTransform = "uppercase";
+          let changeParagraph = document.getElementsByTagName("p");
+          for (let index in changeParagraph) {
+            changeParagraph[index].style.textTransform = "uppercase";
+          }
         }
         modifyP();
 
