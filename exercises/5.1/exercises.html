@@ -87,7 +87,9 @@
 
         function show() {
           let showP = document.getElementsByTagName("p");
-          console.log(showP);
+          for (let index in showP) {
+            console.log(showP[index].innerText);
+          } 
         }
         show();
 
