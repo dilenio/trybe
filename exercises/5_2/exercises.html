@@ -94,6 +94,20 @@
       img.className = "small-image";
       document.getElementsByClassName("left-content")[0].appendChild(img);
 
+      // 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... 
+      // como valores da lista. Essa lista deve ser filha do div criado no passo 6;
+      let ulList = document.createElement("ul");
+      let arrayNumberText = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+
+      document.querySelector(".right-content").append(ulList);
+
+      for (let index = 0; index < arrayNumberText.length; index += 1) {
+        let liList = document.createElement("li");
+        let liText = document.createTextNode(arrayNumberText[index]);
+        liList.appendChild(liText);
+        document.querySelector("ul").appendChild(liList);
+      }
+
     </script>
   </body>
 </html>
