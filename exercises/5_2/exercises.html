@@ -73,6 +73,10 @@
       divCenterContent.className = "center-content";
       document.getElementsByClassName("main-content")[0].appendChild(divCenterContent);
 
+      // 4. Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+      let p = document.createElement("p");
+      p.innerText = "Full Stack Developer";
+      document.getElementsByClassName("center-content")[0].appendChild(p);
 
     </script>
   </body>
