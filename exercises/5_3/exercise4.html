@@ -10,13 +10,26 @@
   
   <script>
 
-      let catImage = document.getElementsByTagName("img")[0];
-      catImage.style.left = "0px";
-      
+      let catImage = document.querySelector("img");
+      catImage.style.left = "0";
+      let catWalkBack = false;
       function catWalk() {
         let catPosition = parseInt(catImage.style.left);
-        catImage.style.left = (catPosition + 10) + "px";
-        console.log(catPosition)
+        
+        if (catPosition >= (window.innerWidth - catImage.width) && !catWalkBack) {
+          catImage.style.left = "0";
+          catImage.style.transform = "scaleX(-1)";
+          catWalkBack = true;
+        } else if (catPosition <= 0 && catWalkBack) { 
+          catImage.style.transform = "scaleX(1)";
+          catWalkBack = false;
+        }
+        if (catWalkBack) {
+          catImage.style.left = (catPosition - 10) + "px";
+        } else {
+          catImage.style.left = (catPosition + 10) + "px";
+        }
+        
       }
       window.setInterval(catWalk, 50);
 
