@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercises 6.2</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container">
+  <!-- CABEÇALHO -->
+  <header>
+    <h1 class="text-center">Formulário de Currículo</h1>
+    <p class="text-center"><em>Envie o seu currículo</em></p>
+  </header>
+
+  <!-- FORMULÁRIO -->
+  <form action="#" method="GET">
+    <legend>Dados Pessoais</legend>
+    <div class="form-group">
+      <label for="full-name">Nome</label>
+      <input class="form-control" type="text" name="full-name" id="full-name" required="required" maxlength="40" aria-describedby="nameHelp">
+      <small id="nameHelp" class="form-text text-muted">Digite o seu nome completo</small>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input class="form-control" type="email" name="email" id="email" required="required" maxlength="50" aria-describedby="nameHelp">
+      <small id="emailHelp" class="form-text text-muted">Digite seu e-mail principal</small>
+    </div>
+    <div class="form-group">
+      <label for="cpf">CPF</label>
+      <input class="form-control" type="text" name="cpf" id="cpf" required="required" maxlength="11" aria-describedby="cpfHelp">
+      <small id="cpfHelp" class="form-text text-muted">Digite o seu CPF, somente os números, sem traços e sem pontos</small>
+    </div>
+    <div class="form-group">
+      <label for="address">Endereço</label>
+      <input class="form-control" type="text" name="address" id="address" required="required" maxlength="200">
+    </div>
+    <div class="form-group">
+      <label for="city">Cidade</label>
+      <input class="form-control" type="text" name="city" id="city" required="required" maxlength="28">
+    </div>
+    <div class="form-group">
+      <label for="state">Estado</label>
+      <select class="form-control" name="state" id="state" required="required">
+      </select>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="home" id="home-house" required="required" value="casa">
+      <label class="form-check-label" for="home-house">Casa</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="home" id="home-ap" required="required" value="apartamento">
+      <label class="form-check-label" for="home-ap">Apartamento</label>
+    </div>
+
+    <legend>Último emprego</legend>
+    <div class="form-group">
+      <label for="summary">Descrição</label>
+      <textarea class="form-control" name="summary" id="summary" maxlength="1000" required="required" aria-describedby="summaryHelp"></textarea>
+      <small id="summaryHelp" class="form-text text-muted">Descreva o seu último emprego</small>
+    </div>
+    <div class="form-group">
+      <label for="job">Cargo</label>
+      <input class="form-control" type="text" id="job" name="job" maxlength="40" required="required">
+    </div>
+    <div class="form-group">
+      <label for="job-summary">Descrição do cargo</label>
+      <input class="form-control" type="text" id="job-summary" name="job-summary" maxlength="500" required="required">
+    </div>
+    <div class="form-group">
+      <label for="start-date">Data de início</label>
+      <input class="form-control" type="text" name="start-date" id="datepicker" required="required">
+    </div>
+    <div class="form-group">
+      <button class="btn btn-success" type="submit" id="send">Enviar</button>
+      <button class="btn btn-outline-danger" type="reset">Limpar</button>
+    </div>
+  </form>
+  <div id="result">
+
+  </div>
+  <footer>
+    Criado por Dilenio Enderle
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
