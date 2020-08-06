@@ -20,4 +20,24 @@ header p {
   font-weight: 900;
 }
 
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0 5px;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
 
