@@ -1,0 +1,71 @@
+body {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 1.2rem;
+    margin: 0 20px;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  figure {
+    margin: 50px 0;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    background-color: rgb(145, 161, 182);
+    font-size: 1.1rem;
+    margin: 0 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .images figure {
+    width: 45vw;
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  body {
+    background-color: rgb(172, 182, 145);
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .images figure {
+    width: 15vw;
+    padding: 20px 10px;
+  }
+}
