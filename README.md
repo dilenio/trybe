@@ -1,9 +1,13 @@
-# trybe
-Repositório de aulas da Trybe
+# Exercícios das Aulas da Trybe
+Repositório de exercícios das aulas da Trybe
 
 ## Aqui ficarão disponíveis todos os exercícios das aulas
 
 ![image](https://user-images.githubusercontent.com/11057411/90800659-5507fc00-e2eb-11ea-851f-263569e73961.png)
 
 > Dúvidas? me pergunte! Estou a disposição
-[Link](https://google.com)
+[Link](https://linkedin.com/in/dilenio)
+
+1. Item de exemplo
+  * Subitem 1
+  * Subitem 2
