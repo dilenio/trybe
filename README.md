@@ -11,3 +11,8 @@ Repositório de exercícios das aulas da Trybe
 1. Item de exemplo
   * Subitem 1
   * Subitem 2
+  
+2. Orientações:
+ * Adicione os arquivos `git add .`
+ * Faça um commit `git commit -m 'Mensagem'`
+ * Submeta os arquivos com push `git push -u origin destino
