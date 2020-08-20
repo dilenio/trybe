@@ -16,3 +16,7 @@ Repositório de exercícios das aulas da Trybe
  * Adicione os arquivos `git add .`
  * Faça um commit `git commit -m 'Mensagem'`
  * Submeta os arquivos com push `git push -u origin destino
+
+## Exemplo
+
+**_ Exemplo: _** _/users/nomeDoUsuario/code/**projeto-xyz**_
