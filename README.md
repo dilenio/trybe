@@ -17,6 +17,15 @@ Repositório de exercícios das aulas da Trybe
  * Faça um commit `git commit -m 'Mensagem'`
  * Submeta os arquivos com push `git push -u origin destino
 
-## Exemplo
+## Exemplo de código
 
-**_ Exemplo: _** _/users/nomeDoUsuario/code/**projeto-xyz**_
+```
+function studentAverage() {
+  return alunos
+    .map((student, index) => ({
+      name: student,
+      average: (notas[index]
+        .reduce((acc, element) => acc + element, 0) / notas[index].length),
+    }))
+}
+```
