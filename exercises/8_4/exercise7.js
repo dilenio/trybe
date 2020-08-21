@@ -17,7 +17,6 @@ const ships = [
   }
 ]
 
-// escreva shipLength abaixo
 const shipLength = ({ name, length, measurementUnit = 'meters' }) =>
   `${name} is ${length} ${measurementUnit} long`;
 
