@@ -8,8 +8,8 @@ const notas = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 function studentAverage() {
   // escreva seu código aqui
   return alunos
-    .map((student, index) => ({
-      name: student,
+    .map((name, index) => ({
+      name,
       average: (notas[index]
         .reduce((acc, element) => acc + element, 0) / notas[index].length),
     }))
