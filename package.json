@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "name": "trybe",
+  "description": "Repositório de aulas da Trybe",
+  "version": "1.0.0",
+  "main": "sum.test.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilenio/trybe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilenio/trybe/issues"
+  },
+  "homepage": "https://github.com/dilenio/trybe#readme"
+}
